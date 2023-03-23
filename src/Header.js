@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -117,7 +117,6 @@ export default function Header() {
       }
     `}</style>
       </div>
-      <Outlet />
     </>
   );
 }

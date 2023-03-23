@@ -265,7 +265,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <Outlet />
     </>
   );
 };
