@@ -24,7 +24,7 @@ export default function Header() {
         </div>
         <div>
           <nav>
-            <section className="MOBILE-MENU flex lg:hidden">
+            <section className="MOBILE-MENU flex lg:hidden ">
               <div
                 className="HAMBURGER-ICON space-y-2"
                 onClick={() => setIsNavOpen((prev) => !prev)}
@@ -34,7 +34,7 @@ export default function Header() {
                 <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
               </div>
 
-              <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+              <div className={isNavOpen ? "showMenuNav" : "hideMenuNav "}>
                 <div
                   className="absolute top-0 right-0 px-8 py-8"
                   onClick={() => setIsNavOpen(false)}
@@ -60,10 +60,10 @@ export default function Header() {
                     <Link to="/about">About</Link>
                   </li>
                   <li className="border-b border-gray-400  uppercase">
-                    <Link to="/service">Service</Link>
+                    <Link to="/services">Service</Link>
                   </li>
                   <li className="border-b border-gray-400  uppercase">
-                    <Link to="/blog">Blogs</Link>
+                    <Link to="/blogs">Blogs</Link>
                   </li>
                   <li className="border-b border-gray-400  uppercase">
                     <Link to="/contact">Contact</Link>
