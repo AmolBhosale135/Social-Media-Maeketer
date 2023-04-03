@@ -4,7 +4,119 @@ const About = () => {
       <OurTeam />;
       <Team />;
       <CoreTeam />;
-      <TopTeam />;
+      <TopTeam />
+      {/* <ProgressBar />; */}
+      <div className="flex">
+        <div className=" p-8 rounded-lg w-full md:w-2/3 lg:w-1/2">
+          <img
+            src="https://knbhojake.com/wp-content/uploads/2023/01/2_img@2x.png"
+            alt="logo"
+            className="object-contain"
+          />
+        </div>
+        <div className="bg-white p-8 shadow-lg shadow-slate-200 rounded-lg w-full md:w-2/3 lg:w-1/2">
+          <div className="flex items-center justify-between">
+            <span className="text-slate-400 text-sm text-slate-500">
+              Progress 1
+            </span>
+            <span className="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">
+              0%
+            </span>
+          </div>
+          <div className="w-full bg-slate-100 h-1 mb-6 mt-2">
+            <div className="bg-teal-400 h-1 rounded" style={{ width: "0%" }} />
+          </div>
+          <div className="flex items-center justify-between">
+            <span className="text-slate-400 text-sm text-slate-500">
+              Progress 2
+            </span>
+            <span className="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">
+              25%
+            </span>
+          </div>
+          <div className="w-full bg-slate-100 h-1 mb-6 mt-2">
+            <div className="bg-teal-400 h-1 rounded" style={{ width: "25%" }} />
+          </div>
+          <div className="flex items-center justify-between">
+            <span className="text-slate-400 text-sm text-slate-500">
+              Progress 3
+            </span>
+            <span className="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">
+              50%
+            </span>
+          </div>
+          <div className="w-full bg-slate-100 h-1 mb-6 mt-2">
+            <div className="bg-teal-400 h-1 rounded" style={{ width: "50%" }} />
+          </div>
+          <div className="flex items-center justify-between">
+            <span className="text-slate-400 text-sm text-slate-500">
+              Progress 4
+            </span>
+            <span className="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">
+              75%
+            </span>
+          </div>
+          <div className="w-full bg-slate-100 h-1 mb-6 mt-2">
+            <div className="bg-teal-400 h-1 rounded" style={{ width: "75%" }} />
+          </div>
+          <div className="flex items-center justify-between">
+            <span className="text-slate-400 text-sm text-slate-500">
+              Progress 5
+            </span>
+            <span className="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">
+              100%
+            </span>
+          </div>
+          <div className="w-full bg-slate-100 h-1 mt-2">
+            <div
+              className="bg-teal-400 h-1 rounded"
+              style={{ width: "100%" }}
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+            <div>
+              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+                Our Value
+              </p>
+            </div>
+
+            <p className="text-base text-gray-700 md:text-lg">
+              We have mastered the skills of understanding client requirements
+              according to the latest trends. Having worked with businesses from
+              different niches so you can rely on us for yours. We’ve been
+              working across different areas like graphic designing, customised
+              website designing, social media marketing, content creation to
+              search engine optimisation. Having worked on various projects that
+              are already live, we can help you with the best possible
+              suggestions and ideas that we can proceed with. With us, you
+              aren’t forced to accept anything. We will give you various
+              options, and we can work together.
+            </p>
+          </div>
+        </div>
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+            <div>
+              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+                JOIN US
+              </p>
+            </div>
+            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+              If you can laugh together, you can work together.
+            </h2>
+            <p className="text-base text-gray-700 md:text-lg">
+              Begin your career with us and contribute to making a difference.
+              Professionals forming a formidable force for digital growth. We
+              are looking for people to join our team of bright and enthusiastic
+              individuals who are eager to uphold our Brand Value.
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
